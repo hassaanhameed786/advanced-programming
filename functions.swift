@@ -90,6 +90,17 @@ let retValues = nil
 return retValues
 }
 
+/// functions pass by referecne 
+
+func sayHello8() -> (name1: inout String, name2: inout String) {
+let tmp = name1
+name1 = name2
+name2 = tmp
+}
+var one = "one"
+var two = "two"
+sayHello8(name1: &one, name2: &two)
+
 
 
 func sayHello7() -> (greetings: String = "Hello", names: String...) {
