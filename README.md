@@ -1,7 +1,10 @@
 # What I have learned in this 
 
-In this course I have learned a build process ( pipeline in c language ) and the most important Design pattern Singleton and Builder
-that would help to solve the software developnemnt life cyale with much better performacne.And lastly version control system with 
+In this course I have learned a build process ( pipeline in c language )Design pattern Singleton and Builder and other 
+
+# Programming Languages are
+
+- Swift and C
 
 
 # Code in Swift language
@@ -14,3 +17,5 @@ I have covered the Swift language
 - Functions
 - Structures and Classes
 - Protocols
+- SwiftUIS
+
